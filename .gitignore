@@ -1,5 +1,20 @@
-
+# Basilisk outputs
 Init_f
 */Init_f*
 */*/Init_f*
+f_facets.dat
+f_Testing.dat
+
+# Compiled binary
+InitialCondition
+
+# macOS
+.DS_Store
 */.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
