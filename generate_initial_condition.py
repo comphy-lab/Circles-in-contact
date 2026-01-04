@@ -272,7 +272,7 @@ def generate_initial_conditions(delta, Rr_list, data_folder, image_folder=None,
         Interface, X1, Y1, Xf, Yf, X2, Y2 = get_circles(delta, Rr)
 
         # Save data file
-        filename = f"InitialConditionRr-{Rr:.2f}delta-{delta:.2f}.dat"
+        filename = f"InitialConditionRr-{Rr:.2f}.dat"
         filepath = os.path.join(data_folder, filename)
         Interface.to_csv(filepath, index=False, header=False, sep=' ')
         print(f"  Saved: {filepath}")
